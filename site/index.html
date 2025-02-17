@@ -219,13 +219,10 @@
   </head>
 
   <body
-    class="leading-normal tracking-normal text-gray-900"
+    class="leading-normal tracking-normal text-gray-900 bg-[#F5FFFE]"
     style="font-family: 'Source Sans Pro', sans-serif"
   >
-    <div
-      class="h-screen pb-14 bg-right bg-cover"
-      style="background-image: url('bg.svg')"
-    >
+    <div class="h-screen pb-14 bg-right bg-cover">
       <!--Nav-->
       <div class="w-full container mx-auto p-6">
         <div class="w-full flex items-center justify-between">
@@ -276,23 +273,29 @@
 
       <!--Main-->
       <div
-        class="container pt-12 md:pt-18 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center"
+        class="container px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center"
       >
         <!--Left Col-->
         <div
           class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden"
         >
           <h1
-            class="my-4 text-3xl md:text-5xl text-purple-800 font-bold leading-tight text-center md:text-left slide-in-bottom-h1"
+            class="leading-normal text-[#015C56] text-base md:text-3xl mb-8 text-center md:text-left slide-in-bottom-subtitle"
           >
-            Śledź Białystok
+            Wszystkie wydarzenia w Białymstoku w zasięgu ręki.<br />
+            Śledź, co się dzieje w sercu Podlasia!
           </h1>
-          <p
-            class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle"
+
+          <!-- Lista kategorii wydarzeń -->
+          <ul
+            class="mb-8 text-[#015C56] text-center md:text-left text-lg slide-in-bottom-subtitle"
           >
-            Wszystkie wydarzenia w Białymstoku w zasięgu ręki. Śledź, co się
-            dzieje w sercu Podlasia!
-          </p>
+            <li>&#8226; Koncerty</li>
+            <li>&#8226; Festiwale</li>
+            <li>&#8226; Wydarzenia sportowe</li>
+            <li>&#8226; Spotkania kulturalne</li>
+            <li>&#8226; Warsztaty i szkolenia</li>
+          </ul>
 
           <p
             class="leading-normal text-xs md:text-xl mb-8 text-center md:text-left slide-in-bottom-subtitle"
@@ -314,23 +317,20 @@
             <a
               target="_blank"
               href="https://apps.apple.com/pl/app/%C5%9Bled%C5%BA-bia%C5%82ystok/id6739501226"
-              ><img src="App Store.svg" class="h-12 pr-4 bounce-top-icons"
+              ><img src="ios.svg" class="h-14 pr-4 bounce-top-icons"
             /></a>
             <a
               href="https://play.google.com/store/apps/details?id=com.sb.main&pcampaignid=web_share"
               target="_blank"
             >
-              <img src="Play Store.svg" class="h-12 bounce-top-icons"
+              <img src="google.svg" class="h-14 bounce-top-icons"
             /></a>
           </div>
         </div>
 
         <!--Right Col-->
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
-          <img
-            class="w-5/6 mx-auto lg:mr-0 slide-in-bottom"
-            src="devices.svg"
-          />
+          <img class="w-3/4 mx-auto lg:mr-0 slide-in-bottom" src="mockup.png" />
         </div>
 
         <!--Footer-->
@@ -341,8 +341,5 @@
         </div>
       </div>
     </div>
-
-    <!-- jQuery if you need it
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  --></body>
+  </body>
 </html>
